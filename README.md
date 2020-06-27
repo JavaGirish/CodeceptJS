@@ -4,9 +4,9 @@ Basic CodeceptJS project built using CodeceptJS + WebDriver Helper
 
 * After cloning the project, open the code in Visual Studio
 * 3 test files are located in Tests folder
-* To run the tests, goto Terminal and type "npx codeceptjs run --steps"
-* After tests run, test run reports (Allure Reports) will be generated in output folder
-* To generate Allure Reports generated, run the command "allure serve output" which will open the allure reports in your browser
+* To run the tests, go to Terminal and execute the command: "npx codeceptjs run --steps"
+* After tests run is completed, run reports (Allure Reports) will be generated in output folder
+* To generate Allure Reports, run command "allure serve output" in the terminal which will open allure test run reports in your browser
 
 
 Test Cases:
