@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593271430234' stop='1593271504251'>
+    <name>NOP Commerce Website E2E Tests: Edit an existing Customer:</name>
+    <title>NOP Commerce Website E2E Tests: Edit an existing Customer:</title>
+    <test-cases>
+        <test-case start='1593271430237' status='passed' stop='1593271503668'>
+            <name>Edit a new customer</name>
+            <title>Edit a new customer</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1593271468499' status='passed' stop='1593271479468'>
+                    <name>I click "li.treeview:nth-child(4)"</name>
+                    <title>I click "li.treeview:nth-child(4)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271479469' status='passed' stop='1593271491611'>
+                    <name>I click ".menu-open li:nth-child(1) span"</name>
+                    <title>I click ".menu-open li:nth-child(1) span"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271491612' status='passed' stop='1593271491985'>
+                    <name>I see "Homer Simpson", "//td[contains(text(),'Homer')]"</name>
+                    <title>I see "Homer Simpson", "//td[contains(text(),'Homer')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271491986' status='passed' stop='1593271492146'>
+                    <name>I see "Springfield Nuclear Power Plant", "//td[contains(text(),'Nuclear Power')]"</name>
+                    <title>I see "Springfield Nuclear Power Plant", "//td[contains(text(),'Nuclear Power')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271492146' status='passed' stop='1593271492340'>
+                    <name>I click "//td[contains(text(),'Homer')]/preceding-sibling::td[2]/input"</name>
+                    <title>I click "//td[contains(text(),'Homer')]/preceding-sibling::td[2]/input"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271492340' status='passed' stop='1593271496872'>
+                    <name>I click "//td[contains(text(),'Homer')]/following-sibling::td[6]/a"</name>
+                    <title>I click "//td[contains(text(),'Homer')]/following-sibling::td[6]/a"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271496873' status='passed' stop='1593271497120'>
+                    <name>I wait for element ".content-header", 10</name>
+                    <title>I wait for element ".content-header", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271497121' status='passed' stop='1593271498356'>
+                    <name>I see "Edit customer details - Simpson Homer"</name>
+                    <title>I see "Edit customer details - Simpson Homer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271498356' status='passed' stop='1593271498588'>
+                    <name>I clear field "First name"</name>
+                    <title>I clear field "First name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271498589' status='passed' stop='1593271498950'>
+                    <name>I fill field "First name", "Ned"</name>
+                    <title>I fill field "First name", "Ned"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271498951' status='passed' stop='1593271499132'>
+                    <name>I clear field "Last name"</name>
+                    <title>I clear field "Last name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271499133' status='passed' stop='1593271499800'>
+                    <name>I fill field "Last name", "Flanders"</name>
+                    <title>I fill field "Last name", "Flanders"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271499800' status='passed' stop='1593271499983'>
+                    <name>I clear field "Company name"</name>
+                    <title>I clear field "Company name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271499983' status='passed' stop='1593271502951'>
+                    <name>I click "Save"</name>
+                    <title>I click "Save"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271502951' status='passed' stop='1593271503668'>
+                    <name>I see "The customer has been updated successfully.", ".alert-success"</name>
+                    <title>I see "The customer has been updated successfully.", ".alert-success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

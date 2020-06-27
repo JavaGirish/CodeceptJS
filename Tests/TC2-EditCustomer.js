@@ -19,13 +19,13 @@ Scenario('Edit a new customer', (I) => {
     I.click('.menu-open li:nth-child(1) span')
 
     //Validate if Homer Simpson is added already and record is available
-    I.see('Homer Simpson', '.dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(3)')
+    I.see('Homer Simpson', "//td[contains(text(),'Homer')]")
 
     //Validate Company Name
-    I.see('Springfield Nuclear Power Plant', '.dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(5)')
+    I.see('Springfield Nuclear Power Plant', "//td[contains(text(),'Nuclear Power')]")
 
-    I.click('.dataTables_scrollBody tbody tr:nth-child(1) input')
-    I.click('.dataTables_scrollBody tbody tr:nth-child(1) a')
+    I.click("//td[contains(text(),'Homer')]/preceding-sibling::td[2]/input") 
+    I.click("//td[contains(text(),'Homer')]/following-sibling::td[6]/a")
     I.waitForElement('.content-header',10)
     I.see('Edit customer details - Simpson Homer')
 

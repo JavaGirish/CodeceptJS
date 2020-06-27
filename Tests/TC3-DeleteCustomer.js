@@ -18,11 +18,11 @@ Scenario('Delete a new customer', (I) => {
     I.click('li.treeview:nth-child(4)')
     I.click('.menu-open li:nth-child(1) span')
 
-    //Validate if Homer Simpson is added already and record is available
-    I.see('Ned Flanders', '.dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(3)')
+    //Validate if Homer Simpson is updated to Ned Flanders and is available
+    I.see('Ned Flanders', "//td[contains(text(),'Ned')]")
 
-    I.click(' :nth-child(1) input')
-    I.click('.dataTables_scrollBody tbody tr:nth-child(1) a')
+    I.click("//td[contains(text(),'Ned')]/preceding-sibling::td[2]/input") 
+    I.click("//td[contains(text(),'Ned')]/following-sibling::td[6]/a")
     I.waitForElement('.content-header',10)
     I.see('Edit customer details - Flanders Ned')
     I.click('#customer-delete ')

@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593271504279' stop='1593271565449'>
+    <name>NOP Commerce Website E2E Tests: Delete an Customer record:</name>
+    <title>NOP Commerce Website E2E Tests: Delete an Customer record:</title>
+    <test-cases>
+        <test-case start='1593271504287' status='passed' stop='1593271565325'>
+            <name>Delete a new customer</name>
+            <title>Delete a new customer</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1593271531466' status='passed' stop='1593271542214'>
+                    <name>I click "li.treeview:nth-child(4)"</name>
+                    <title>I click "li.treeview:nth-child(4)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271542214' status='passed' stop='1593271550918'>
+                    <name>I click ".menu-open li:nth-child(1) span"</name>
+                    <title>I click ".menu-open li:nth-child(1) span"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271550918' status='passed' stop='1593271552920'>
+                    <name>I see "Ned Flanders", "//td[contains(text(),'Ned')]"</name>
+                    <title>I see "Ned Flanders", "//td[contains(text(),'Ned')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271552920' status='passed' stop='1593271553082'>
+                    <name>I click "//td[contains(text(),'Ned')]/preceding-sibling::td[2]/input"</name>
+                    <title>I click "//td[contains(text(),'Ned')]/preceding-sibling::td[2]/input"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271553083' status='passed' stop='1593271558883'>
+                    <name>I click "//td[contains(text(),'Ned')]/following-sibling::td[6]/a"</name>
+                    <title>I click "//td[contains(text(),'Ned')]/following-sibling::td[6]/a"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271558883' status='passed' stop='1593271558983'>
+                    <name>I wait for element ".content-header", 10</name>
+                    <title>I wait for element ".content-header", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271558984' status='passed' stop='1593271560454'>
+                    <name>I see "Edit customer details - Flanders Ned"</name>
+                    <title>I see "Edit customer details - Flanders Ned"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271560454' status='passed' stop='1593271560707'>
+                    <name>I click "#customer-delete "</name>
+                    <title>I click "#customer-delete "</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271560707' status='passed' stop='1593271560782'>
+                    <name>I wait for element ".bg-red.pull-right", 10</name>
+                    <title>I wait for element ".bg-red.pull-right", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271560783' status='passed' stop='1593271564886'>
+                    <name>I click ".bg-red.pull-right"</name>
+                    <title>I click ".bg-red.pull-right"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593271564886' status='passed' stop='1593271565325'>
+                    <name>I see "The customer has been deleted successfully.", ".alert-success"</name>
+                    <title>I see "The customer has been deleted successfully.", ".alert-success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
