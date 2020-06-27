@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593259196182' stop='1593259237509'>
+    <name>NOP Commerce Website E2E Tests:</name>
+    <title>NOP Commerce Website E2E Tests:</title>
+    <test-cases>
+        <test-case start='1593259196185' status='passed' stop='1593259237146'>
+            <name>Create a new customer</name>
+            <title>Create a new customer</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1593259218356' status='passed' stop='1593259229092'>
+                    <name>I click "li.treeview:nth-child(4)"</name>
+                    <title>I click "li.treeview:nth-child(4)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593259229092' status='passed' stop='1593259236995'>
+                    <name>I click ".menu-open li:nth-child(1) span"</name>
+                    <title>I click ".menu-open li:nth-child(1) span"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593259236996' status='passed' stop='1593259237146'>
+                    <name>I wait for element ".content-header", 10</name>
+                    <title>I wait for element ".content-header", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

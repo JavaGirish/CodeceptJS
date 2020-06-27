@@ -1,27 +1,32 @@
-const { setHeadlessWhen } = require('@codeceptjs/configure');
-
-// turn on headless mode when running with HEADLESS=true environment variable
-// HEADLESS=true npx codecept run
-setHeadlessWhen(process.env.HEADLESS);
-
 exports.config = {
-  tests: './Tests/*.js',
   output: './output',
   helpers: {
     WebDriver: {
       url: 'https://admin-demo.nopcommerce.com/',
       browser: 'chrome',
-      host: '127.0.0.1',
-      port: 4444
+      windowSize: 'maximize',
+      timeouts: {
+        'script': 90000,
+        'page load': 45000,
+        'implicit': 3000
+      }
     }
   },
   include: {
     I: './steps_file.js'
   },
-  bootstrap: null,
   mocha: {},
-  name: 'Codecept',
+  bootstrap: null,
+  teardown: null,
+  hooks: [],
+  gherkin: {
+    features: './features/*.feature',
+    steps: ['./step_definitions/steps.js']
+  },
   plugins: {
+    screenshotOnFail: {
+      enabled: true
+    },
     retryFailedStep: {
       enabled: true
     },
@@ -29,8 +34,10 @@ exports.config = {
       enabled: true,
       services: ['selenium-standalone']
     },
-    screenshotOnFail: {
+    allure: {
       enabled: true
     }
-  }
+  },
+  tests: './Tests/*.js',
+  name: 'Codecept'
 }
