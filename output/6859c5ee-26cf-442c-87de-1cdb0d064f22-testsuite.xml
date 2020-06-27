@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593268621035' stop='1593268675830'>
+    <name>NOP Commerce Website E2E Tests: Delete a Customer:</name>
+    <title>NOP Commerce Website E2E Tests: Delete a Customer:</title>
+    <test-cases>
+        <test-case start='1593268621040' status='passed' stop='1593268675396'>
+            <name>Delete a new customer</name>
+            <title>Delete a new customer</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1593268645958' status='passed' stop='1593268656772'>
+                    <name>I click "li.treeview:nth-child(4)"</name>
+                    <title>I click "li.treeview:nth-child(4)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268656773' status='passed' stop='1593268664219'>
+                    <name>I click ".menu-open li:nth-child(1) span"</name>
+                    <title>I click ".menu-open li:nth-child(1) span"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268664220' status='passed' stop='1593268664813'>
+                    <name>I see "Ned Flanders", ".dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(3)"</name>
+                    <title>I see "Ned Flanders", ".dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(3)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268664814' status='passed' stop='1593268664999'>
+                    <name>I click ".dataTables_scrollBody tbody tr:nth-child(1) input"</name>
+                    <title>I click ".dataTables_scrollBody tbody tr:nth-child(1) input"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268664999' status='passed' stop='1593268669552'>
+                    <name>I click ".dataTables_scrollBody tbody tr:nth-child(1) a"</name>
+                    <title>I click ".dataTables_scrollBody tbody tr:nth-child(1) a"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268669553' status='passed' stop='1593268669790'>
+                    <name>I wait for element ".content-header", 10</name>
+                    <title>I wait for element ".content-header", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268669790' status='passed' stop='1593268671062'>
+                    <name>I see "Edit customer details - Flanders Ned"</name>
+                    <title>I see "Edit customer details - Flanders Ned"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268671062' status='passed' stop='1593268671428'>
+                    <name>I click "#customer-delete "</name>
+                    <title>I click "#customer-delete "</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268671429' status='passed' stop='1593268671646'>
+                    <name>I wait for element ".bg-red.pull-right", 10</name>
+                    <title>I wait for element ".bg-red.pull-right", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268671647' status='passed' stop='1593268674698'>
+                    <name>I click ".bg-red.pull-right"</name>
+                    <title>I click ".bg-red.pull-right"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268674698' status='passed' stop='1593268675396'>
+                    <name>I see "The customer has been deleted successfully.", ".alert-success"</name>
+                    <title>I see "The customer has been deleted successfully.", ".alert-success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

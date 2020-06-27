@@ -1,93 +1,93 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593261949899' stop='1593262028935'>
-    <name>NOP Commerce Website E2E Tests:</name>
-    <title>NOP Commerce Website E2E Tests:</title>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593269011013' stop='1593269083535'>
+    <name>NOP Commerce Website E2E Tests: Adding a new Customer:</name>
+    <title>NOP Commerce Website E2E Tests: Adding a new Customer:</title>
     <test-cases>
-        <test-case start='1593261949900' status='passed' stop='1593262028659'>
+        <test-case start='1593269020205' status='passed' stop='1593269083389'>
             <name>Create a new customer</name>
             <title>Create a new customer</title>
             <labels/>
             <parameters/>
             <steps>
-                <step start='1593261989281' status='passed' stop='1593262000084'>
+                <step start='1593269053492' status='passed' stop='1593269064289'>
                     <name>I click "li.treeview:nth-child(4)"</name>
                     <title>I click "li.treeview:nth-child(4)"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262000085' status='passed' stop='1593262005869'>
+                <step start='1593269064290' status='passed' stop='1593269071829'>
                     <name>I click ".menu-open li:nth-child(1) span"</name>
                     <title>I click ".menu-open li:nth-child(1) span"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262005869' status='passed' stop='1593262005941'>
+                <step start='1593269071830' status='passed' stop='1593269072311'>
                     <name>I wait for element ".content-header", 10</name>
                     <title>I wait for element ".content-header", 10</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262005942' status='passed' stop='1593262008319'>
+                <step start='1593269072312' status='passed' stop='1593269075172'>
                     <name>I click "Add new"</name>
                     <title>I click "Add new"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262008320' status='passed' stop='1593262008402'>
+                <step start='1593269075173' status='passed' stop='1593269075301'>
                     <name>I wait for element ".content-header"</name>
                     <title>I wait for element ".content-header"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262008403' status='passed' stop='1593262009417'>
-                    <name>I fill field "Email", "homer_3@nopcommerce.com"</name>
-                    <title>I fill field "Email", "homer_3@nopcommerce.com"</title>
+                <step start='1593269075301' status='passed' stop='1593269076626'>
+                    <name>I fill field "Email", "simpson@nopcommerce.com"</name>
+                    <title>I fill field "Email", "simpson@nopcommerce.com"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262009418' status='passed' stop='1593262009895'>
+                <step start='1593269076627' status='passed' stop='1593269077144'>
                     <name>I fill field "Password", "Password"</name>
                     <title>I fill field "Password", "Password"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262009895' status='passed' stop='1593262010258'>
+                <step start='1593269077145' status='passed' stop='1593269077598'>
                     <name>I fill field "First name", "Homer"</name>
                     <title>I fill field "First name", "Homer"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262010258' status='passed' stop='1593262010581'>
+                <step start='1593269077598' status='passed' stop='1593269078098'>
                     <name>I fill field "Last name", "Simpson"</name>
                     <title>I fill field "Last name", "Simpson"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262010582' status='passed' stop='1593262010777'>
+                <step start='1593269078098' status='passed' stop='1593269078376'>
                     <name>I check option "#Gender_Male"</name>
                     <title>I check option "#Gender_Male"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262010777' status='passed' stop='1593262011179'>
+                <step start='1593269078377' status='passed' stop='1593269078840'>
                     <name>I fill field "Date of birth", "5/2/1980"</name>
                     <title>I fill field "Date of birth", "5/2/1980"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262011179' status='passed' stop='1593262012368'>
+                <step start='1593269078840' status='passed' stop='1593269080100'>
                     <name>I fill field "Company", "Springfield Nuclear Power Plant"</name>
                     <title>I fill field "Company", "Springfield Nuclear Power Plant"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262012368' status='passed' stop='1593262028464'>
+                <step start='1593269080100' status='passed' stop='1593269083201'>
                     <name>I click "Save"</name>
                     <title>I click "Save"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593262028465' status='passed' stop='1593262028657'>
+                <step start='1593269083202' status='passed' stop='1593269083388'>
                     <name>I see "The new customer has been added successfully.", ".alert-success"</name>
                     <title>I see "The new customer has been added successfully.", ".alert-success"</title>
                     <attachments/>

@@ -1,4 +1,4 @@
-Feature('NOP Commerce Website E2E Tests');
+Feature('NOP Commerce Website E2E Tests: Adding a new Customer');
 
 Before((I) => { // or Background
 I.amOnPage('/');
@@ -21,7 +21,7 @@ I.click('.menu-open li:nth-child(1) span')
 I.waitForElement('.content-header',10)
 I.click('Add new')
 I.waitForElement('.content-header')
-I.fillField('Email','homer_3@nopcommerce.com')
+I.fillField('Email','simpson.fox@nopcommerce.com')
 I.fillField('Password','Password')
 I.fillField('First name', 'Homer')  
 I.fillField('Last name', 'Simpson')  

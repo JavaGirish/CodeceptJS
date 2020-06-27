@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593268565277' stop='1593268620985'>
+    <name>NOP Commerce Website E2E Tests: Edit a Customer:</name>
+    <title>NOP Commerce Website E2E Tests: Edit a Customer:</title>
+    <test-cases>
+        <test-case start='1593268565280' status='passed' stop='1593268620448'>
+            <name>Edit a new customer</name>
+            <title>Edit a new customer</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1593268592144' status='passed' stop='1593268602697'>
+                    <name>I click "li.treeview:nth-child(4)"</name>
+                    <title>I click "li.treeview:nth-child(4)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268602697' status='passed' stop='1593268608285'>
+                    <name>I click ".menu-open li:nth-child(1) span"</name>
+                    <title>I click ".menu-open li:nth-child(1) span"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268608286' status='passed' stop='1593268608707'>
+                    <name>I see "Homer Simpson", ".dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(3)"</name>
+                    <title>I see "Homer Simpson", ".dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(3)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268608708' status='passed' stop='1593268608879'>
+                    <name>I see "Springfield Nuclear Power Plant", ".dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(5)"</name>
+                    <title>I see "Springfield Nuclear Power Plant", ".dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(5)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268608879' status='passed' stop='1593268609075'>
+                    <name>I click ".dataTables_scrollBody tbody tr:nth-child(1) input"</name>
+                    <title>I click ".dataTables_scrollBody tbody tr:nth-child(1) input"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268609075' status='passed' stop='1593268613355'>
+                    <name>I click ".dataTables_scrollBody tbody tr:nth-child(1) a"</name>
+                    <title>I click ".dataTables_scrollBody tbody tr:nth-child(1) a"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268613355' status='passed' stop='1593268613425'>
+                    <name>I wait for element ".content-header", 10</name>
+                    <title>I wait for element ".content-header", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268613425' status='passed' stop='1593268614650'>
+                    <name>I see "Edit customer details - Simpson Homer"</name>
+                    <title>I see "Edit customer details - Simpson Homer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268614650' status='passed' stop='1593268614811'>
+                    <name>I clear field "First name"</name>
+                    <title>I clear field "First name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268614811' status='passed' stop='1593268615165'>
+                    <name>I fill field "First name", "Ned"</name>
+                    <title>I fill field "First name", "Ned"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268615166' status='passed' stop='1593268615364'>
+                    <name>I clear field "Last name"</name>
+                    <title>I clear field "Last name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268615364' status='passed' stop='1593268615819'>
+                    <name>I fill field "Last name", "Flanders"</name>
+                    <title>I fill field "Last name", "Flanders"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268615819' status='passed' stop='1593268616019'>
+                    <name>I clear field "Company name"</name>
+                    <title>I clear field "Company name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268616033' status='passed' stop='1593268620046'>
+                    <name>I click "Save"</name>
+                    <title>I click "Save"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593268620047' status='passed' stop='1593268620448'>
+                    <name>I see "The customer has been updated successfully.", ".alert-success"</name>
+                    <title>I see "The customer has been updated successfully.", ".alert-success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

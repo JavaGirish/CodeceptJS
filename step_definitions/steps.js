@@ -1,0 +1,2 @@
+const { I, productPage } = inject();
+
