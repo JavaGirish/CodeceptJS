@@ -1,4 +1,4 @@
-#CodeceptJS
+<b> #CodeceptJS </b>
 
 Basic CodeceptJS project built using CodeceptJS + WebDriver Helper
 
