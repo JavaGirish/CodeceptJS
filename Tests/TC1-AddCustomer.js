@@ -1,4 +1,10 @@
+var faker = require('faker');
+
+let randomEmail = faker.internet.email();
+
 Feature('NOP Commerce Website E2E Tests: Adding a new Customer');
+
+
 
 Before((I) => { // or Background
 I.amOnPage('/');
@@ -21,7 +27,8 @@ I.click('.menu-open li:nth-child(1) span')
 I.waitForElement('.content-header',10)
 I.click('Add new')
 I.waitForElement('.content-header')
-I.fillField('Email','simpson.add@nopcommerce.com')
+//I.fillField('Email','simpson.ah@nopcommerce.com');
+I.fillField('Email', randomEmail);
 I.fillField('Password','Password')
 I.fillField('First name', 'Homer')  
 I.fillField('Last name', 'Simpson')  

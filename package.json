@@ -15,6 +15,7 @@
     "puppeteer": "^4.0.1"
   },
   "dependencies": {
+    "faker": "^4.1.0",
     "webdriverio": "^6.1.22"
   }
 }

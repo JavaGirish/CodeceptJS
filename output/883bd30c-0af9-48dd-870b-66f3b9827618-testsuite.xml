@@ -1,82 +1,93 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593271504279' stop='1593271565449'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595067729696' stop='1595067807214'>
     <name>NOP Commerce Website E2E Tests: Delete an Customer record:</name>
     <title>NOP Commerce Website E2E Tests: Delete an Customer record:</title>
     <test-cases>
-        <test-case start='1593271504287' status='passed' stop='1593271565325'>
+        <test-case start='1595067729727' status='failed' stop='1595067806125'>
             <name>Delete a new customer</name>
             <title>Delete a new customer</title>
             <labels/>
             <parameters/>
             <steps>
-                <step start='1593271531466' status='passed' stop='1593271542214'>
+                <step start='1595067756990' status='passed' stop='1595067767628'>
                     <name>I click "li.treeview:nth-child(4)"</name>
                     <title>I click "li.treeview:nth-child(4)"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593271542214' status='passed' stop='1593271550918'>
+                <step start='1595067767629' status='passed' stop='1595067776383'>
                     <name>I click ".menu-open li:nth-child(1) span"</name>
                     <title>I click ".menu-open li:nth-child(1) span"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593271550918' status='passed' stop='1593271552920'>
+                <step start='1595067776386' status='passed' stop='1595067776889'>
                     <name>I see "Ned Flanders", "//td[contains(text(),'Ned')]"</name>
                     <title>I see "Ned Flanders", "//td[contains(text(),'Ned')]"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593271552920' status='passed' stop='1593271553082'>
+                <step start='1595067776890' status='passed' stop='1595067777095'>
                     <name>I click "//td[contains(text(),'Ned')]/preceding-sibling::td[2]/input"</name>
                     <title>I click "//td[contains(text(),'Ned')]/preceding-sibling::td[2]/input"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593271553083' status='passed' stop='1593271558883'>
+                <step start='1595067777095' status='passed' stop='1595067781149'>
                     <name>I click "//td[contains(text(),'Ned')]/following-sibling::td[6]/a"</name>
                     <title>I click "//td[contains(text(),'Ned')]/following-sibling::td[6]/a"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593271558883' status='passed' stop='1593271558983'>
+                <step start='1595067781150' status='passed' stop='1595067781214'>
                     <name>I wait for element ".content-header", 10</name>
                     <title>I wait for element ".content-header", 10</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593271558984' status='passed' stop='1593271560454'>
+                <step start='1595067781222' status='passed' stop='1595067782536'>
                     <name>I see "Edit customer details - Flanders Ned"</name>
                     <title>I see "Edit customer details - Flanders Ned"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593271560454' status='passed' stop='1593271560707'>
-                    <name>I click "#customer-delete "</name>
-                    <title>I click "#customer-delete "</title>
+                <step start='1595067782536' status='passed' stop='1595067782776'>
+                    <name>I click "#customer-delete"</name>
+                    <title>I click "#customer-delete"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593271560707' status='passed' stop='1593271560782'>
-                    <name>I wait for element ".bg-red.pull-right", 10</name>
-                    <title>I wait for element ".bg-red.pull-right", 10</title>
+                <step start='1595067782776' status='passed' stop='1595067782819'>
+                    <name>I wait for element ".bg-red.pull-right", 20</name>
+                    <title>I wait for element ".bg-red.pull-right", 20</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593271560783' status='passed' stop='1593271564886'>
+                <step start='1595067782819' status='passed' stop='1595067783100'>
                     <name>I click ".bg-red.pull-right"</name>
                     <title>I click ".bg-red.pull-right"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593271564886' status='passed' stop='1593271565325'>
+                <step start='1595067783100' status='failed' stop='1595067806122'>
                     <name>I see "The customer has been deleted successfully.", ".alert-success"</name>
                     <title>I see "The customer has been deleted successfully.", ".alert-success"</title>
                     <attachments/>
                     <steps/>
                 </step>
             </steps>
-            <attachments/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='ef059353-099e-4157-ab80-4597bf8bf3c3-attachment.png' type='image/png' size='71163'/>
+            </attachments>
+            <failure>
+                <message>Element ".alert-success" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Element ".alert-success" was not found by text|CSS|XPath
+                    at new ElementNotFound (D:\JavaScript\Codecept\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (D:\JavaScript\Codecept\node_modules\codeceptjs\lib\helper\WebDriver.js:2717:11)
+                    at WebDriver.proceedSee (D:\JavaScript\Codecept\node_modules\codeceptjs\lib\helper\WebDriver.js:2495:3)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
         </test-case>
     </test-cases>
 </ns2:test-suite>

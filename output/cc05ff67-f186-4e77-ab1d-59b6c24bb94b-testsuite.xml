@@ -1,99 +1,99 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593269682669' stop='1593269777606'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595067660362' stop='1595067729680'>
     <name>NOP Commerce Website E2E Tests: Edit an existing Customer:</name>
     <title>NOP Commerce Website E2E Tests: Edit an existing Customer:</title>
     <test-cases>
-        <test-case start='1593269682671' status='passed' stop='1593269775342'>
+        <test-case start='1595067660365' status='passed' stop='1595067729180'>
             <name>Edit a new customer</name>
             <title>Edit a new customer</title>
             <labels/>
             <parameters/>
             <steps>
-                <step start='1593269737167' status='passed' stop='1593269749202'>
+                <step start='1595067694667' status='passed' stop='1595067705475'>
                     <name>I click "li.treeview:nth-child(4)"</name>
                     <title>I click "li.treeview:nth-child(4)"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269749203' status='passed' stop='1593269758108'>
+                <step start='1595067705476' status='passed' stop='1595067715092'>
                     <name>I click ".menu-open li:nth-child(1) span"</name>
                     <title>I click ".menu-open li:nth-child(1) span"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269758109' status='passed' stop='1593269760066'>
-                    <name>I see "Homer Simpson", ".dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(3)"</name>
-                    <title>I see "Homer Simpson", ".dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(3)"</title>
+                <step start='1595067715093' status='passed' stop='1595067715925'>
+                    <name>I see "Homer Simpson", "//td[contains(text(),'Homer')]"</name>
+                    <title>I see "Homer Simpson", "//td[contains(text(),'Homer')]"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269760066' status='passed' stop='1593269760166'>
-                    <name>I see "Springfield Nuclear Power Plant", ".dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(5)"</name>
-                    <title>I see "Springfield Nuclear Power Plant", ".dataTables_scrollBody tbody tr:nth-child(1) td:nth-child(5)"</title>
+                <step start='1595067715925' status='passed' stop='1595067716021'>
+                    <name>I see "Springfield Nuclear Power Plant", "//td[contains(text(),'Nuclear Power')]"</name>
+                    <title>I see "Springfield Nuclear Power Plant", "//td[contains(text(),'Nuclear Power')]"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269760167' status='passed' stop='1593269760343'>
-                    <name>I click ".dataTables_scrollBody tbody tr:nth-child(1) input"</name>
-                    <title>I click ".dataTables_scrollBody tbody tr:nth-child(1) input"</title>
+                <step start='1595067716021' status='passed' stop='1595067716212'>
+                    <name>I click "//td[contains(text(),'Homer')]/preceding-sibling::td[2]/input"</name>
+                    <title>I click "//td[contains(text(),'Homer')]/preceding-sibling::td[2]/input"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269760343' status='passed' stop='1593269767611'>
-                    <name>I click ".dataTables_scrollBody tbody tr:nth-child(1) a"</name>
-                    <title>I click ".dataTables_scrollBody tbody tr:nth-child(1) a"</title>
+                <step start='1595067716212' status='passed' stop='1595067720750'>
+                    <name>I click "//td[contains(text(),'Homer')]/following-sibling::td[6]/a"</name>
+                    <title>I click "//td[contains(text(),'Homer')]/following-sibling::td[6]/a"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269767611' status='passed' stop='1593269767683'>
+                <step start='1595067720751' status='passed' stop='1595067720828'>
                     <name>I wait for element ".content-header", 10</name>
                     <title>I wait for element ".content-header", 10</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269767683' status='passed' stop='1593269768949'>
+                <step start='1595067720829' status='passed' stop='1595067722403'>
                     <name>I see "Edit customer details - Simpson Homer"</name>
                     <title>I see "Edit customer details - Simpson Homer"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269768949' status='passed' stop='1593269769987'>
+                <step start='1595067722403' status='passed' stop='1595067722926'>
                     <name>I clear field "First name"</name>
                     <title>I clear field "First name"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269769987' status='passed' stop='1593269770368'>
+                <step start='1595067722926' status='passed' stop='1595067723996'>
                     <name>I fill field "First name", "Ned"</name>
                     <title>I fill field "First name", "Ned"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269770368' status='passed' stop='1593269770553'>
+                <step start='1595067723996' status='passed' stop='1595067724183'>
                     <name>I clear field "Last name"</name>
                     <title>I clear field "Last name"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269770553' status='passed' stop='1593269771138'>
+                <step start='1595067724183' status='passed' stop='1595067724695'>
                     <name>I fill field "Last name", "Flanders"</name>
                     <title>I fill field "Last name", "Flanders"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269771139' status='passed' stop='1593269771331'>
+                <step start='1595067724695' status='passed' stop='1595067724925'>
                     <name>I clear field "Company name"</name>
                     <title>I clear field "Company name"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269771332' status='passed' stop='1593269775206'>
+                <step start='1595067724925' status='passed' stop='1595067729019'>
                     <name>I click "Save"</name>
                     <title>I click "Save"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1593269775206' status='passed' stop='1593269775342'>
+                <step start='1595067729024' status='passed' stop='1595067729180'>
                     <name>I see "The customer has been updated successfully.", ".alert-success"</name>
                     <title>I see "The customer has been updated successfully.", ".alert-success"</title>
                     <attachments/>

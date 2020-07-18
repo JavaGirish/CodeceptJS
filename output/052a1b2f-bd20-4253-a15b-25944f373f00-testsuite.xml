@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594567990803' stop='1594568059008'>
+    <name>Login and Search Product:</name>
+    <title>Login and Search Product:</title>
+    <test-cases>
+        <test-case start='1594568000773' status='passed' stop='1594568058119'>
+            <name>Search an Product</name>
+            <title>Search an Product</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1594568031533' status='passed' stop='1594568032165'>
+                    <name>I fill field "Search store", "Apple Macbook"</name>
+                    <title>I fill field "Search store", "Apple Macbook"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568032166' status='passed' stop='1594568038714'>
+                    <name>I click ".ui-menu-item-wrapper span"</name>
+                    <title>I click ".ui-menu-item-wrapper span"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568038714' status='passed' stop='1594568039391'>
+                    <name>I see "Apple MacBook Pro 13-inch"</name>
+                    <title>I see "Apple MacBook Pro 13-inch"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568039391' status='passed' stop='1594568039614'>
+                    <name>I clear field "#product_enteredQuantity_4"</name>
+                    <title>I clear field "#product_enteredQuantity_4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568039614' status='passed' stop='1594568039804'>
+                    <name>I fill field "#product_enteredQuantity_4", "3"</name>
+                    <title>I fill field "#product_enteredQuantity_4", "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568039805' status='passed' stop='1594568040205'>
+                    <name>I click "Add to cart"</name>
+                    <title>I click "Add to cart"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568040206' status='passed' stop='1594568041862'>
+                    <name>I see element ".bar-notification.success", "The product has been added to your shopping cart"</name>
+                    <title>I see element ".bar-notification.success", "The product has been added to your shopping cart"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568041863' status='passed' stop='1594568043582'>
+                    <name>I click "shopping cart"</name>
+                    <title>I click "shopping cart"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568043582' status='passed' stop='1594568046583'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568046584' status='passed' stop='1594568046805'>
+                    <name>I select option "#checkout_attribute_1", "Yes [+$10.00]"</name>
+                    <title>I select option "#checkout_attribute_1", "Yes [+$10.00]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568046806' status='passed' stop='1594568048173'>
+                    <name>I click "#open-estimate-shipping-popup"</name>
+                    <title>I click "#open-estimate-shipping-popup"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568048173' status='passed' stop='1594568051465'>
+                    <name>I select option "#CountryId", "1"</name>
+                    <title>I select option "#CountryId", "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568051465' status='passed' stop='1594568054759'>
+                    <name>I select option "#StateProvinceId", "52"</name>
+                    <title>I select option "#StateProvinceId", "52"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568054759' status='passed' stop='1594568055415'>
+                    <name>I fill field "#ZipPostalCode", "34356"</name>
+                    <title>I fill field "#ZipPostalCode", "34356"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568055415' status='passed' stop='1594568055812'>
+                    <name>I check option "//div[text()='Next Day Air']"</name>
+                    <title>I check option "//div[text()='Next Day Air']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568055813' status='passed' stop='1594568055963'>
+                    <name>I click "Apply"</name>
+                    <title>I click "Apply"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568055963' status='passed' stop='1594568056105'>
+                    <name>I see element ".value-summary strong", "$5,400.00"</name>
+                    <title>I see element ".value-summary strong", "$5,400.00"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568056106' status='passed' stop='1594568057095'>
+                    <name>I save screenshot "order1.png"</name>
+                    <title>I save screenshot "order1.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568057095' status='passed' stop='1594568057391'>
+                    <name>I click {"name":"removefromcart"}</name>
+                    <title>I click {"name":"removefromcart"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568057392' status='passed' stop='1594568057560'>
+                    <name>I wait for element ".order-summary-content", 10</name>
+                    <title>I wait for element ".order-summary-content", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594568057560' status='passed' stop='1594568058116'>
+                    <name>I save screenshot "order2.png"</name>
+                    <title>I save screenshot "order2.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

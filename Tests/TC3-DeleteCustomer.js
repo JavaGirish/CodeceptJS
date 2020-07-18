@@ -25,8 +25,8 @@ Scenario('Delete a new customer', (I) => {
     I.click("//td[contains(text(),'Ned')]/following-sibling::td[6]/a")
     I.waitForElement('.content-header',10)
     I.see('Edit customer details - Flanders Ned')
-    I.click('#customer-delete ')
-    I.waitForElement('.bg-red.pull-right',10)
+    I.click('#customer-delete')
+    I.waitForElement('.bg-red.pull-right',20)
     I.click('.bg-red.pull-right')
 
     I.see('The customer has been deleted successfully.','.alert-success')
